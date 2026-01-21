@@ -1,23 +1,29 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import Home from "./Home";
+import Courses from "./Courses";
+import About from "./About";
+import Contact from "./Contact";
 
+import "./App.css";
 
 function App() {
   return (
-    <>
-      <BrowserRouter>
+    <BrowserRouter>
       <Navbar />
 
-      <Routes>
-        
-      </Routes>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/courses" element={<Courses />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
 
       <Footer />
     </BrowserRouter>
-    </>
   );
 }
 

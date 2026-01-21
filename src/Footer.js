@@ -33,10 +33,9 @@ const Footer = () => {
           <h3>Quick Links</h3>
           <ul>
             <li><a href="/">Home</a></li>
-            <li><a href="/farm">Our Farm</a></li>
-            <li><a href="/production">Production</a></li>
-            <li><a href="/about">About Us</a></li>
-            <li><a href="/contact">Contact</a></li>
+          <li><a href="/courses">Courses</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/contact">Contact Us</a></li>
           </ul>
         </div>
 
