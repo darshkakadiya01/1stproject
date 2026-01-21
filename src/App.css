@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 html, body {
@@ -196,84 +197,171 @@ html, body {
 
 
 
-/* Start Contentone.js */
 
+ 
+
+
+
+
+/* Start contact.js */
 .contact-page {
   min-height: 100vh;
-  background-image: url("https://images.unsplash.com/photo-1521791136064-7986c2920216");
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.65),
+      rgba(0, 0, 0, 0.65)
+    ),
+    url("https://images.unsplash.com/photo-1521791136064-7986c2920216");
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.contact-overlay {
-  background: rgba(0, 0, 0, 0.6);
-  width: 100%;
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding: 40px 20px;
 }
 
 .contact-container {
   background: #ffffff;
-  padding: 40px;
-  border-radius: 14px;
-  max-width: 450px;
+  padding: 45px 40px;
+  border-radius: 18px;
+  max-width: 460px;
   width: 100%;
   text-align: center;
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.35);
+  animation: fadeUp 0.8s ease-in-out;
 }
 
 .contact-container h1 {
-  font-size: 32px;
-  margin-bottom: 10px;
-  color:  #157402;
+  font-size: 34px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #157402;
 }
 
 .contact-container p {
-  font-size: 14px;
-  color: #555;
-  margin-bottom: 25px;
-  line-height: 1.6;
+  font-size: 15px;
+  color: #666;
+  margin-bottom: 30px;
+  line-height: 1.7;
 }
 
 .contact-form .form-group {
-  margin-bottom: 15px;
+  margin-bottom: 18px;
 }
 
 .contact-form input,
 .contact-form textarea {
   width: 100%;
-  padding: 12px 14px;
-  border-radius: 8px;
-  border: 1px solid #ccc;
+  padding: 14px 16px;
+  border-radius: 10px;
+  border: 1.5px solid #ddd;
   font-size: 14px;
   outline: none;
+  transition: all 0.3s ease;
+}
+
+.contact-form textarea {
+  resize: none;
+  min-height: 120px;
 }
 
 .contact-form input:focus,
 .contact-form textarea:focus {
-  border-color:#157402;
+  border-color: #157402;
+  box-shadow: 0 0 0 3px rgba(21, 116, 2, 0.15);
 }
 
 .contact-btn {
   width: 100%;
-  padding: 12px;
-  background:#157402;
-  color: #fff;
+  padding: 14px;
+  background: linear-gradient(135deg, #157402, #1c9a03);
+  color: #ffffff;
   border: none;
-  border-radius: 8px;
+  border-radius: 10px;
   font-size: 16px;
+  font-weight: 500;
   cursor: pointer;
-  transition: background 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .contact-btn:hover {
-  background: #157402;
+  transform: translateY(-2px);
+  box-shadow: 0 12px 25px rgba(21, 116, 2, 0.4);
+}
+
+.contentone-container-whychoose-maindiv {
+  margin: 80px auto 40px;
+  max-width: 900px;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.contentone-container-whychoose-maindiv h2 {
+  font-size: 30px;
+  color: #157402;
+  margin-bottom: 35px;
+}
+
+.contentone-container-whychoose {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.contentone-container-whychoose li {
+  background: #f8fdf7;
+  padding: 20px;
+  border-radius: 14px;
+  font-size: 16px;
+  color: #333;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.contentone-container-whychoose li:hover {
+  transform: translateY(-6px);
+}
+
+.contentone-contact {
+  margin: 70px auto 40px;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.contentone-contact h2 {
+  font-size: 28px;
+  color: #157402;
+  margin-bottom: 15px;
+}
+
+.contentone-contact p {
+  font-size: 15px;
+  color: #555;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-container {
+    padding: 35px 25px;
+  }
+
+  .contact-container h1 {
+    font-size: 28px;
+  }
+
+  .contentone-container-whychoose-maindiv h2 {
+    font-size: 26px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -282,56 +370,15 @@ html, body {
   }
 
   .contact-container h1 {
-    font-size: 26px;
-  }
-}
-
-.contentone-container-whychoose-maindiv h2 {
-  margin-top: 60px;
-  text-align: center;
-  color: #157402;
-  margin-bottom: 30px;
-}
-
-.contentone-container-whychoose-maindiv {
-  margin-top: 60px;
-  text-align: center;
-}
-
-.contentone-container-whychoose {
-  list-style: none;
-  padding: 0;
-}
-
-.contentone-container-whychoose li {
-  font-size: 16px;
-  margin: 10px 0;
-}
-
-.contentone-contact {
-  margin-top: 60px;
-  text-align: center;
-}
-
-.contentone-contact h2 {
-  color: #157402;
-}
-
-@media (max-width: 900px) {
-  .contentone-product {
-    flex-direction: column;
-    text-align: center;
-  }
-}
-
-@media (max-width: 900px) {
-  .contentone-product {
-    flex-direction: column;
-    text-align: center;
+    font-size: 24px;
   }
 
-  .contentone-details h2 {
-    margin-top: 30px;
+  .contact-container p {
+    font-size: 14px;
+  }
+
+  .contact-btn {
+    font-size: 15px;
   }
 }
-/* End Contentone.js */
+/* End contact.js */
