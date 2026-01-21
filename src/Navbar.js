@@ -13,8 +13,7 @@ function Navbar() {
 
         <ul className="navbar-menu">
           <li><b>Home</b></li>
-          <li><b>Farm</b></li>
-          <li><b>Production</b></li>
+          <li><b>courses</b></li>
           <li><b>About</b></li>
           <li><b>Contact Us</b></li>
         </ul>
