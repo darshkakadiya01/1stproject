@@ -28,7 +28,7 @@ function Courses() {
 
         {/* GREEN INFO LINE */}
         <p style={{ color: "green", fontWeight: "bold", marginTop: "10px" }}>
-          After you submit this form and send message on WhatsApp, we will contact you.
+          After you submit this form and send a message on WhatsApp, we will contact you.
         </p>
       </section>
 

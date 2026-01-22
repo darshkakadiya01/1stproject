@@ -53,8 +53,7 @@ function Enroll() {
 
       {/* INFO LINE */}
       <p className="whatsapp-info">
-        After you submit this form and send message on WhatsApp,
-        we will contact you.
+       After you submit this form and send a message on WhatsApp, we will contact you.
       </p>
 
       <form className="enroll-form" onSubmit={handleSubmit}>
