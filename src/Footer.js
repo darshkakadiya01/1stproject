@@ -6,44 +6,51 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-container">
         
+        {/* ABOUT SECTION */}
         <div className="footer-box">
-          <h2>OM AGRO FOOD</h2>
+          <h2>YOGI WELLNESS</h2>
           <p>
-            OM AGRO FOOD is committed to delivering fresh, high-quality mangoes
-            and agro products directly from farms, ensuring purity, taste, and
-            trust.
+            YOGI WELLNESS is a holistic weight loss and wellness platform
+            dedicated to helping people achieve a healthy body and peaceful
+            mind. Our programs focus on natural weight loss through yoga,
+            mindful living, balanced nutrition, and sustainable lifestyle
+            habits for long-term results.
           </p>
         </div>
 
+        {/* CONTACT SECTION */}
         <div className="footer-box">
           <h3>Contact Us</h3>
-          <p><strong>Email:</strong> omagrofood@gmail.com</p>
+          <p><strong>Email:</strong> yogiwellness @gmail.com</p>
           <p><strong>Phone:</strong> +91 94090 59003</p>
           <p><strong>Phone:</strong> +91 78638 83934</p>
           <p>
-            <strong>Address:</strong>  
+            <strong>Address:</strong>
             <br />
-            OM AGRO FOOD,  
+            YOGI WELLNESS  
+            <br />
             Rampara, Gir, Gir Somnath,  
             Gujarat, India
           </p>
         </div>
 
+        {/* QUICK LINKS */}
         <div className="footer-box">
           <h3>Quick Links</h3>
           <ul>
             <li><a href="/">Home</a></li>
-          <li><a href="/courses">Courses</a></li>
-          <li><a href="/about">About</a></li>
-          <li><a href="/contact">Contact Us</a></li>
+            <li><a href="/courses">Courses</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/contact">Contact Us</a></li>
           </ul>
         </div>
 
       </div>
 
+      {/* FOOTER BOTTOM */}
       <div className="footer-bottom">
         <p>
-          © {new Date().getFullYear()} OM AGRO FOOD. All Rights Reserved.
+          © {new Date().getFullYear()} YOGI WELLNESS. All Rights Reserved.
         </p>
       </div>
     </footer>
@@ -51,3 +58,4 @@ const Footer = () => {
 };
 
 export default Footer;
+  

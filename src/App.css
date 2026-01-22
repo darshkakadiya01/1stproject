@@ -26,9 +26,53 @@ html, body {
 }
 
 .navbar-logo {
-  width: 15%;
+  width: 8%;
   height: auto;
 }
+
+.navbar-logoo {
+  width: 8%;
+  height: auto;
+  margin-left: -800px;
+}
+.navbar-logoo {
+  width: 120px;
+  height: auto;
+  margin-left: 0;
+}
+
+/* Large screens */
+@media (min-width: 1200px) {
+  .navbar-logoo {
+    width: 8%;
+    margin-left: -800px;
+  }
+}
+
+/* Laptop */
+@media (max-width: 1199px) {
+  .navbar-logoo {
+    width: 120px;
+    margin-left: 0;
+  }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  .navbar-logoo {
+    width: 110px;
+    margin-left: 0;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .navbar-logoo {
+    width: 100px;
+    margin-left: 0;
+  }
+}
+
 
 .navbar-menu {
   list-style: none;
@@ -96,6 +140,18 @@ html, body {
   }
 }
 /* End Navbar.js */
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -382,3 +438,251 @@ html, body {
   }
 }
 /* End contact.js */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Start home.js */
+/* MAIN CONTAINER */
+.home-container {
+  width: 100%;
+  overflow-x: hidden;
+  font-family: Arial, sans-serif;
+}
+
+/* HERO SECTION */
+/* GLOBAL */
+.home-container {
+  width: 100%;
+  overflow-x: hidden;
+  font-family: Arial, sans-serif;
+}
+
+/* HERO SECTION */
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 70px 80px;
+  background: linear-gradient(to right, #e8f5e9, #ffffff);
+}
+
+.hero-content {
+  flex: 1;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  color: #157402;
+  margin-bottom: 10px;
+}
+
+.hero-content h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 18px;
+  line-height: 1.6;
+  max-width: 520px;
+  margin-bottom: 30px;
+}
+
+.buy-btn {
+  background-color: #157402;
+  color: white;
+  border: none;
+  padding: 14px 32px;
+  font-size: 18px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.buy-btn:hover {
+  background-color: #0f5c02;
+}
+
+.hero-image {
+  flex: 1;
+  text-align: center;
+}
+
+.hero-image img {
+  width: 90%;
+  max-width: 520px;
+  border-radius: 20px;
+}
+
+/* ABOUT SECTION */
+.about-section {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding: 70px 80px;
+}
+
+.about-image img {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 20px;
+}
+
+.about-content h2 {
+  font-size: 36px;
+  color: #157402;
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+/* PROGRAMS */
+.programs-section {
+  background-color: #f9f9f9;
+  padding: 70px 80px;
+  text-align: center;
+}
+
+.programs-section h2 {
+  font-size: 36px;
+  color: #157402;
+  margin-bottom: 40px;
+}
+
+.programs {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+}
+
+.program-card {
+  background: white;
+  border-radius: 20px;
+  width: 300px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.program-card img {
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+.program-card h3 {
+  color: #157402;
+  margin-bottom: 10px;
+}
+
+.program-card p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* CTA */
+.cta-section {
+  background: #157402;
+  color: white;
+  text-align: center;
+  padding: 70px 20px;
+}
+
+.cta-section h2 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.cta-section p {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.cta-section .buy-btn {
+  background: white;
+  color: #157402;
+}
+
+.free-trial-text {
+  background: #e8f5e9;
+  border-left: 4px solid #157402;
+  padding: 10px 15px;
+  margin: 15px 0 25px;
+  font-size: 17px;
+  border-radius: 6px;
+}
+
+
+/* ================= RESPONSIVE ================= */
+
+/* TABLET */
+@media (max-width: 992px) {
+  .hero-section,
+  .about-section {
+    flex-direction: column;
+    text-align: center;
+    padding: 50px 30px;
+  }
+
+  .programs {
+    flex-wrap: wrap;
+  }
+}
+
+/* MOBILE */
+@media (max-width: 576px) {
+  .hero-content h1 {
+    font-size: 36px;
+  }
+
+  .hero-content h2 {
+    font-size: 22px;
+  }
+
+  .about-content h2,
+  .programs-section h2,
+  .cta-section h2 {
+    font-size: 28px;
+  }
+
+  .buy-btn {
+    font-size: 16px;
+    padding: 12px 24px;
+    margin-bottom: 20px;
+  }
+
+  .program-card {
+    width: 100%;
+  }
+}
+/* End home.js */
