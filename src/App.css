@@ -686,3 +686,226 @@ html, body {
   }
 }
 /* End home.js */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* start Courses.js */
+/* MAIN CONTAINER */
+.courses-container {
+  width: 100%;
+  padding: 60px 80px;
+  font-family: Arial, sans-serif;
+}
+
+/* HEADER */
+.courses-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.courses-header h1 {
+  font-size: 40px;
+  color: #157402;
+  margin-bottom: 15px;
+}
+
+.courses-header p {
+  font-size: 18px;
+  max-width: 700px;
+  margin: auto;
+}
+
+/* COURSE LIST */
+.courses-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+/* COURSE CARD */
+.course-card {
+  background: white;
+  width: 320px;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  text-align: center;
+  position: relative;
+}
+
+.course-card img {
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+.course-card h2 {
+  font-size: 22px;
+  color: #157402;
+  margin-bottom: 10px;
+}
+
+.course-desc {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.course-price {
+  font-size: 26px;
+  font-weight: bold;
+  color: #157402;
+  margin-bottom: 15px;
+}
+
+/* BUTTON */
+.course-card button {
+  background-color: #157402;
+  color: white;
+  border: none;
+  padding: 12px 28px;
+  font-size: 16px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.course-card button:hover {
+  background-color: #0f5c02;
+}
+
+/* POPULAR BADGE */
+.badge {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: #ff9800;
+  color: white;
+  padding: 6px 12px;
+  font-size: 14px;
+  border-radius: 20px;
+  margin-top: -25px;
+  margin-right: -30px;
+}
+
+.popular {
+  transform: scale(1.05);
+}
+
+/* ================= RESPONSIVE ================= */
+
+/* TABLET */
+@media (max-width: 992px) {
+  .courses-container {
+    padding: 40px 30px;
+  }
+}
+
+/* MOBILE */
+@media (max-width: 576px) {
+  .courses-header h1 {
+    font-size: 32px;
+  }
+
+  .courses-header p {
+    font-size: 16px;
+  }
+
+  .course-card {
+    width: 100%;
+  }
+}
+/* end Courses.js */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Start Enroll.js */
+.enroll-container {
+  max-width: 500px;
+  margin: 60px auto;
+  padding: 30px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  border-radius: 20px;
+  text-align: center;
+}
+
+.enroll-container h1 {
+  color: #157402;
+  margin-bottom: 10px;
+}
+
+.course-name {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.enroll-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.enroll-form input {
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.enroll-form button {
+  background-color: #157402;
+  color: white;
+  border: none;
+  padding: 14px;
+  font-size: 17px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.enroll-form button:hover {
+  background-color: #0f5c02;
+}
+
+.whatsapp-info {
+  color: green;
+  font-weight: 600;
+  margin: 10px 0 20px;
+  font-size: 15px;
+}
+
+/* MOBILE */
+@media (max-width: 576px) {
+  .enroll-container {
+    margin: 30px 15px;
+    padding: 25px;
+  }
+}
+/* End Enroll.js */

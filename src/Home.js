@@ -1,7 +1,14 @@
 import React from "react";
 import "./App.css";
+import { useNavigate } from "react-router-dom";
 
 function Home() {
+  const navigate = useNavigate();
+
+  const goToCourses = () => {
+    navigate("/courses");
+  };
+
   return (
     <div className="home-container">
 
@@ -17,13 +24,12 @@ function Home() {
             loss through yoga, mindful living, and expert guidance.
           </p>
 
-          {/* FREE TRIAL TEXT */}
           <p className="free-trial-text">
-            🎉 <strong>Special Offer:</strong> Get a <strong>1-Day FREE Trial</strong> 
-            of our weight loss program and experience the transformation yourself.
+            🎉 <strong>1-Day FREE Trial Available</strong> for our weight loss program.
           </p>
 
-          <button className="buy-btn">
+          {/* BUTTON → COURSES PAGE */}
+          <button className="buy-btn" onClick={goToCourses}>
             Buy Weight Loss Course
           </button>
         </div>
@@ -49,15 +55,13 @@ function Home() {
           <h2>About YOGI WELLNESS</h2>
           <p>
             At YOGI WELLNESS, we believe true weight loss comes from balance.
-            Our approach combines yoga, breathing techniques, mindful eating,
-            and lifestyle transformation to help you achieve long-lasting results.
+            Our approach combines yoga, mindful eating, and lifestyle
+            transformation to help you achieve long-lasting results.
           </p>
 
           <p>
-            To help you start with confidence, we proudly offer a
-            <strong> 1-day free trial </strong>
-            so you can explore our yoga sessions, weight loss guidance,
-            and wellness techniques before enrolling in a full course.
+            Start confidently with our <strong>1-day free trial</strong> before
+            enrolling in a complete weight loss course.
           </p>
         </div>
       </section>
@@ -74,20 +78,18 @@ function Home() {
             />
             <h3>Yoga Weight Loss</h3>
             <p>
-              Scientifically designed yoga routines that help burn fat,
-              improve flexibility, and boost metabolism.
+              Yoga routines designed to burn fat and improve metabolism.
             </p>
           </div>
 
           <div className="program-card">
             <img
               src="https://images.unsplash.com/photo-1498837167922-ddd27525d352"
-              alt="Healthy Diet"
+              alt="Nutrition"
             />
             <h3>Healthy Nutrition</h3>
             <p>
-              Personalized and easy-to-follow nutrition guidance to support
-              natural and sustainable weight loss.
+              Simple nutrition guidance for sustainable weight loss.
             </p>
           </div>
 
@@ -96,10 +98,9 @@ function Home() {
               src="https://images.unsplash.com/photo-1518611012118-f0c5b61e0a31"
               alt="Meditation"
             />
-            <h3>Mind & Stress Control</h3>
+            <h3>Stress Management</h3>
             <p>
-              Meditation and breathing practices to reduce stress, improve sleep,
-              and prevent emotional eating.
+              Meditation techniques to reduce stress and emotional eating.
             </p>
           </div>
         </div>
@@ -107,13 +108,14 @@ function Home() {
 
       {/* CTA SECTION */}
       <section className="cta-section">
-        <h2>Try YOGI WELLNESS for FREE</h2>
+        <h2>Start Your Weight Loss Journey Today</h2>
         <p>
-          Start with our <strong>1-Day Free Trial</strong> and take the first step
-          towards a healthier, happier you.
+          Try our <strong>1-Day FREE Trial</strong> or enroll in the full course now.
         </p>
-        <button className="buy-btn">
-          Start Free Trial
+
+        {/* BUTTON → COURSES PAGE */}
+        <button className="buy-btn" onClick={goToCourses}>
+          Buy Weight Loss Course
         </button>
       </section>
 
