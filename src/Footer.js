@@ -29,8 +29,8 @@ const Footer = () => {
             <br />
             YOGI WELLNESS  
             <br />
-            gel park, seri no-2, behind bilipatra prime, aalap royal pam road, bapa sitaram chowk, movdi, Rajkot. 
-            Gujarat, India
+            gel park, street no-2, behind bilipatra prime, aalap royal pam road, bapa sitaram chowk, movdi, Rajkot, 
+            Gujarat, India.
           </p>
         </div>
 
