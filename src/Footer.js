@@ -21,7 +21,7 @@ const Footer = () => {
         {/* CONTACT SECTION */}
         <div className="footer-box">
           <h3>Contact Us</h3>
-          <p><strong>Email:</strong> yogiwellness @gmail.com</p>
+          <p><strong>Email:</strong> yogiwellness@gmail.com</p>
           <p><strong>Phone:</strong> +91 94090 59003</p>
           <p><strong>Phone:</strong> +91 78638 83934</p>
           <p>
