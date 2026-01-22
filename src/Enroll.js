@@ -35,7 +35,7 @@ function Enroll() {
 📧 *Email:* ${formData.email}
 `;
 
-    const whatsappNumber = "919409059003"; // YOUR WHATSAPP NUMBER
+    const whatsappNumber = "917984759071"; // YOUR WHATSAPP NUMBER
     const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
       message
     )}`;
