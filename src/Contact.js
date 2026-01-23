@@ -34,7 +34,7 @@ const Contact = () => {
         <div className="contact-container">
           <h1>Contact Us</h1>
           <p>
-            Get in touch with OM AGRO FOOD for inquiries, partnerships, or
+            Get in touch with YOGI WELLNESS for inquiries or
             support. We’d love to hear from you.
           </p>
 

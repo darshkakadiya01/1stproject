@@ -85,7 +85,6 @@ function Enroll() {
           type="number"
           name="weight"
           placeholder="Current Weight (kg)"
-          required
           onChange={handleChange}
         />
 
