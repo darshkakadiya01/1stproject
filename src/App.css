@@ -1087,6 +1087,7 @@ html, body {
   width: 100%;
   max-width: 450px;
   border-radius: 20px;
+  margin-left: 230px;
 }
 
 /* WHY NEW STRUCTURE */
@@ -1202,6 +1203,9 @@ html, body {
   .why-item {
     text-align: left;
   }
+  .about-hero-image img {
+    margin-left: 0;
+  }
 }
 
 @media (max-width: 600px) {
@@ -1212,6 +1216,23 @@ html, body {
   .why-left h2,
   .about-cta h2 {
     font-size: 28px;
+  }
+  .about-hero-image img {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 1300px) {
+  .about-hero-content h1 {
+    font-size: 32px;
+  }
+
+  .why-left h2,
+  .about-cta h2 {
+    font-size: 28px;
+  }
+  .about-hero-image img {
+    margin-left: 0;
   }
 }
 /* End Contact.js */

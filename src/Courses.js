@@ -56,7 +56,7 @@ function Courses() {
           </ul>
 
           <p className="trial-note">
-            ✔️ No payment required • ❌ No credit card needed • 💯 No obligation
+           • ✔️ No payment required <br></br> • ❌ No credit card needed <br></br> • 💯 No obligation
           </p>
 
           <button
