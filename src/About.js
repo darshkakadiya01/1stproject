@@ -8,7 +8,6 @@ function About() {
   return (
     <div className="about-page">
 
-      {/* HERO */}
       <section className="about-hero">
         <div className="about-hero-content">
           <h1>About YOGI WELLNESS</h1>
@@ -30,7 +29,6 @@ function About() {
         </div>
       </section>
 
-      {/* WHY CHOOSE US – NEW STRUCTURE */}
       <section className="why-new">
         <div className="why-left">
           <h2>Why Choose YOGI WELLNESS?</h2>
@@ -96,7 +94,6 @@ function About() {
         </div>
       </section>
 
-      {/* CTA */}
       <section className="about-cta">
         <h2>Start Your Healthy Weight Loss Journey</h2>
         <p>Try our 1-Day FREE Trial or enroll in a full program today.</p>

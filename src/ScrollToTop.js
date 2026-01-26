@@ -8,7 +8,7 @@ function ScrollToTop() {
     window.scrollTo({
       top: 0,
       left: 0,
-      behavior: "instant", // use "smooth" if you like animation
+      behavior: "instant", 
     });
   }, [pathname]);
 

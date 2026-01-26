@@ -35,7 +35,7 @@ function Enroll() {
  *Email:* ${formData.email}
 `;
 
-    const whatsappNumber = "917984759071"; // YOUR WHATSAPP NUMBER
+    const whatsappNumber = "917984759071"; 
     const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
       message
     )}`;
@@ -51,7 +51,6 @@ function Enroll() {
         {courseName} — <strong>{coursePrice}</strong>
       </p>
 
-      {/* INFO LINE */}
       <p className="whatsapp-info">
        After you submit this form and send a message on WhatsApp, we will contact you.
       </p>

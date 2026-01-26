@@ -17,7 +17,6 @@ function Courses() {
   return (
     <div className="courses-page">
 
-      {/* HERO */}
       <section className="courses-hero">
         <h1>YOGI WELLNESS Weight Loss Courses</h1>
         <p>
@@ -30,7 +29,6 @@ function Courses() {
         </p>
       </section>
 
-      {/* FREE TRIAL */}
       <section className="free-trial">
         <div className="free-trial-content">
           <h2> 1-Day FREE Weight Loss Trial</h2>
@@ -55,10 +53,6 @@ function Courses() {
             <li> WhatsApp guidance for the trial day</li>
           </ul>
 
-          {/* <p className="trial-note">
-           • ✔️ No payment required <br></br> • ❌ No credit card needed <br></br> • 💯 No obligation
-          </p> */}
-
           <button
             className="buy-btn"
             onClick={() =>
@@ -77,8 +71,6 @@ function Courses() {
         </div>
       </section>
 
-
-      {/* COURSES */}
       <section className="courses-section">
 
         {/* COURSE 1 */}

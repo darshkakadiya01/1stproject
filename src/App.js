@@ -15,8 +15,7 @@ import "./App.css";
 function App() {
   return (
     <BrowserRouter>
-      <ScrollToTop /> {/* ✅ FIX */}
-
+      <ScrollToTop /> 
       <Navbar />
 
       <Routes>

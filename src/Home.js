@@ -12,7 +12,6 @@ function Home() {
   return (
     <div className="home-container">
 
-      {/* HERO SECTION */}
       <section className="hero-section">
         <div className="hero-content">
           <h1>YOGI WELLNESS</h1>
@@ -28,7 +27,6 @@ function Home() {
             <strong>1-Day FREE Trial Available</strong> for our weight loss program.
           </p>
 
-          {/* BUTTON → COURSES PAGE */}
           <button className="buy-btn" onClick={goToCourses}>
             Buy Weight Loss Course
           </button>
@@ -42,7 +40,6 @@ function Home() {
         </div>
       </section>
 
-      {/* ABOUT SECTION */}
       <section className="about-section">
         <div className="about-image">
           <img
@@ -66,7 +63,6 @@ function Home() {
         </div>
       </section>
 
-      {/* PROGRAMS SECTION */}
       <section className="programs-section">
         <h2>Our Weight Loss Programs</h2>
 
@@ -106,14 +102,12 @@ function Home() {
         </div>
       </section>
 
-      {/* CTA SECTION */}
       <section className="cta-section">
         <h2>Start Your Weight Loss Journey Today</h2>
         <p>
           Try our <strong>1-Day FREE Trial</strong> or enroll in the full course now.
         </p>
 
-        {/* BUTTON → COURSES PAGE */}
         <button className="buy-btn" onClick={goToCourses}>
           Buy Weight Loss Course
         </button>
