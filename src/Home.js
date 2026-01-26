@@ -47,7 +47,7 @@ function Home() {
           name="twitter:image"
           content="https://images.unsplash.com/photo-1554284126-aa88f22d8b74"
         />
-       </head>   
+      </head>   
 
     <div className="home-container">
       <section className="hero-section">
