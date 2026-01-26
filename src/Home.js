@@ -21,7 +21,7 @@ function Home() {
 
         <meta
           name="keywords"
-          content="Yogi Wellness, weight loss, weight loss, weight loss tips, weight loss rajkot, weight loss gujarat, lifestyle management, natural weight loss, healthy lifestyle, mindful living, stress management, weight loss program India"
+          content="Yogi Wellness, weight loss, weight loss, Weight loss rajkot price, Best weight loss rajkot, Female weight loss rajkot, Bariatric surgery rajkot, Weight loss rajkot reviews, Weight loss doctor in Rajkot, weight loss tips, weight loss rajkot, weight loss gujarat, lifestyle management, natural weight loss, healthy lifestyle, mindful living, stress management, weight loss program India"
         />
 
         <meta name="robots" content="index, follow" />
