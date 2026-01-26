@@ -12,7 +12,7 @@ const Footer = () => {
           <p>
             YOGI WELLNESS is a holistic weight loss and wellness platform
             dedicated to helping people achieve a healthy body and peaceful
-            mind. Our programs focus on natural weight loss through yoga,
+            mind. Our programs focus on natural weight loss through Lifestyle management,
             mindful living, balanced nutrition, and sustainable lifestyle
             habits for long-term results.
           </p>

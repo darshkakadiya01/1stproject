@@ -20,7 +20,7 @@ function Courses() {
       <section className="courses-hero">
         <h1>YOGI WELLNESS Weight Loss Courses</h1>
         <p>
-          Yoga-based weight loss programs designed for real people,
+          Lifestyle management-based weight loss programs designed for real people,
           real bodies, and real results.
         </p>
 
@@ -41,12 +41,11 @@ function Courses() {
 
           <p>
             This trial is specially designed for beginners to understand
-            how yoga, breathing techniques, and mindful lifestyle habits
+            how Lifestyle management, breathing techniques, and mindful lifestyle habits
             work together to support natural weight loss.
           </p>
 
           <ul className="trial-points">
-            <li> Live or guided yoga session (beginner-friendly)</li>
             <li> Breathing techniques for fat burn & digestion</li>
             <li> Simple meditation for stress & emotional eating</li>
             <li> Basic daily diet & lifestyle tips</li>
@@ -84,12 +83,11 @@ function Courses() {
             <h2>Beginner Weight Loss Program</h2>
             <p className="course-desc">
               Perfect for beginners and people restarting their fitness journey.
-              Learn basic yoga postures, breathing exercises, and daily routines
+              Learn basic Lifestyle management postures, breathing exercises, and daily routines
               to start losing weight safely.
             </p>
 
             <ul>
-              <li>✔ Easy yoga sessions (20–30 min)</li>
               <li>✔ Fat loss & digestion improvement</li>
               <li>✔ Beginner-friendly guidance</li>
               <li>✔ WhatsApp support</li>
@@ -119,12 +117,12 @@ function Courses() {
             <span className="badge">Most Popular</span>
             <h2>Advanced Weight Loss Program</h2>
             <p className="course-desc">
-              Designed for faster fat loss using advanced yoga flows,
+              Designed for faster fat loss using advanced Lifestyle management flows,
               metabolism-boosting routines, meditation, and nutrition tips.
             </p>
 
             <ul>
-              <li>✔ Advanced fat-burning yoga</li>
+              <li>✔ Advanced fat-burning </li>
               <li>✔ Belly & thigh fat focus</li>
               <li>✔ Stress & emotional eating control</li>
               <li>✔ Diet & lifestyle guidance</li>

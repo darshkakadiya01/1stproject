@@ -20,7 +20,7 @@ function Home() {
           <p>
             YOGI WELLNESS is a holistic weight loss and wellness platform.
             We help people achieve natural, healthy, and sustainable weight
-            loss through yoga, mindful living, and expert guidance.
+            loss through Lifestyle management, mindful living, and expert guidance.
           </p>
 
           <p className="free-trial-text">
@@ -52,7 +52,7 @@ function Home() {
           <h2>About YOGI WELLNESS</h2>
           <p>
             At YOGI WELLNESS, we believe true weight loss comes from balance.
-            Our approach combines yoga, mindful eating, and lifestyle
+            Our approach combines, mindful eating, and lifestyle
             transformation to help you achieve long-lasting results.
           </p>
 
@@ -72,9 +72,9 @@ function Home() {
               src="https://images.unsplash.com/photo-1552196563-55cd4e45efb3"
               alt="Yoga Program"
             />
-            <h3>Yoga Weight Loss</h3>
+            <h3> Weight Loss</h3>
             <p>
-              Yoga routines designed to burn fat and improve metabolism.
+              Weight Loss routines designed to burn fat and improve metabolism.
             </p>
           </div>
 

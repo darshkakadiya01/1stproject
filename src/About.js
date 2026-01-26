@@ -12,7 +12,7 @@ function About() {
         <div className="about-hero-content">
           <h1>About YOGI WELLNESS</h1>
           <p>
-            YOGI WELLNESS helps you lose weight naturally using yoga,
+            YOGI WELLNESS helps you lose weight naturally using Lifestyle management,
             mindful living, and sustainable lifestyle changes.
           </p>
 
@@ -51,9 +51,9 @@ function About() {
           <div className="why-item">
             <span>🧘‍♂️</span>
             <div>
-              <h3>Yoga-Based Fat Loss</h3>
+              <h3>Lifestyle management-Based Fat Loss</h3>
               <p>
-                Special yoga flows that target belly fat, improve digestion,
+                Special Lifestyle management flows that target belly fat, improve digestion,
                 and increase metabolism.
               </p>
             </div>
