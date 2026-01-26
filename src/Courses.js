@@ -33,7 +33,7 @@ function Courses() {
       {/* FREE TRIAL */}
       <section className="free-trial">
         <div className="free-trial-content">
-          <h2>🎉 1-Day FREE Weight Loss Trial</h2>
+          <h2> 1-Day FREE Weight Loss Trial</h2>
 
           <p className="trial-intro">
             Not sure which program is right for you? Start with our
@@ -48,16 +48,16 @@ function Courses() {
           </p>
 
           <ul className="trial-points">
-            <li>🧘‍♂️ Live or guided yoga session (beginner-friendly)</li>
-            <li>🌿 Breathing techniques for fat burn & digestion</li>
-            <li>🧠 Simple meditation for stress & emotional eating</li>
-            <li>🥗 Basic daily diet & lifestyle tips</li>
-            <li>💬 WhatsApp guidance for the trial day</li>
+            <li> Live or guided yoga session (beginner-friendly)</li>
+            <li> Breathing techniques for fat burn & digestion</li>
+            <li> Simple meditation for stress & emotional eating</li>
+            <li> Basic daily diet & lifestyle tips</li>
+            <li> WhatsApp guidance for the trial day</li>
           </ul>
 
-          <p className="trial-note">
+          {/* <p className="trial-note">
            • ✔️ No payment required <br></br> • ❌ No credit card needed <br></br> • 💯 No obligation
-          </p>
+          </p> */}
 
           <button
             className="buy-btn"

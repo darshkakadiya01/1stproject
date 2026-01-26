@@ -24,15 +24,15 @@ function Enroll() {
     e.preventDefault();
 
     const message = `
-🧘 *New Course Inquiry - YOGI WELLNESS*
+ *New Course Inquiry - YOGI WELLNESS*
 
-📘 *Course:* ${courseName}
-💰 *Course Fees:* ${coursePrice}
+ *Course:* ${courseName}
+ *Course Fees:* ${coursePrice}
 
-👤 *Name:* ${formData.firstName} ${formData.lastName}
-📱 *Mobile:* ${formData.mobile}
-⚖️ *Current Weight:* ${formData.weight} kg
-📧 *Email:* ${formData.email}
+ *Name:* ${formData.firstName} ${formData.lastName}
+ *Mobile:* ${formData.mobile}
+ *Current Weight:* ${formData.weight} kg
+ *Email:* ${formData.email}
 `;
 
     const whatsappNumber = "917984759071"; // YOUR WHATSAPP NUMBER

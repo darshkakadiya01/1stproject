@@ -25,7 +25,7 @@ function Home() {
           </p>
 
           <p className="free-trial-text">
-            🎉 <strong>1-Day FREE Trial Available</strong> for our weight loss program.
+            <strong>1-Day FREE Trial Available</strong> for our weight loss program.
           </p>
 
           {/* BUTTON → COURSES PAGE */}
