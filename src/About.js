@@ -24,7 +24,7 @@ function About() {
         <div className="about-hero-image">
           <img
             src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b"
-            alt="Yoga Wellness"
+            alt="Lifestyle management Wellness"
           />
         </div>
       </section>

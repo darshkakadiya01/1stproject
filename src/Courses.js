@@ -65,7 +65,7 @@ function Courses() {
         <div className="free-trial-image">
           <img
             src="https://images.unsplash.com/photo-1506126613408-eca07ce68773"
-            alt="Free Yoga Trial"
+            alt="Free Lifestyle management Trial"
           />
         </div>
       </section>
@@ -76,7 +76,7 @@ function Courses() {
         <div className="course-box">
           <img
             src="https://images.unsplash.com/photo-1549576490-b0b4831ef60a"
-            alt="Beginner Yoga"
+            alt="Beginner Lifestyle management"
           />
 
           <div className="course-info">
@@ -110,7 +110,7 @@ function Courses() {
         <div className="course-box highlight">
           <img
             src="https://images.unsplash.com/photo-1554284126-aa88f22d8b74"
-            alt="Advanced Yoga"
+            alt="Advanced Lifestyle management"
           />
 
           <div className="course-info">

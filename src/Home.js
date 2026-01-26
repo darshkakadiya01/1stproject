@@ -35,7 +35,7 @@ function Home() {
         <div className="hero-image">
           <img
             src="https://images.unsplash.com/photo-1554284126-aa88f22d8b74"
-            alt="Yoga Weight Loss"
+            alt="Lifestyle management Weight Loss"
           />
         </div>
       </section>
@@ -70,7 +70,7 @@ function Home() {
           <div className="program-card">
             <img
               src="https://images.unsplash.com/photo-1552196563-55cd4e45efb3"
-              alt="Yoga Program"
+              alt="Lifestyle management Program"
             />
             <h3> Weight Loss</h3>
             <p>
