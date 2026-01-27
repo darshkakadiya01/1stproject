@@ -23,7 +23,7 @@ function Enroll() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    const message = ` 
+    const message = `
  *New Course Inquiry - YOGI WELLNESS*
 
  *Course:* ${courseName}
