@@ -21,7 +21,7 @@ function Home() {
 
         <meta
           name="keywords"
-          content="Yogi Wellness, Lifestyle management, weight loss rajkot, online weight loss zoom, on-site wellness programs, natural weight loss, healthy lifestyle"
+          content="Yogi Wellness, wellness programs, wellness programs in rajkot, Yogi Wellness weight loss programs, Lifestyle management, weight loss rajkot, online weight loss zoom, on-site wellness programs, natural weight loss, healthy lifestyle"
         />
 
         <meta name="robots" content="index, follow" />
