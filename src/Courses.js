@@ -144,7 +144,7 @@ function Courses() {
         {/* COURSE 3 */}
         <div className="course-box">
           <img
-            src="https://images.unsplash.com/photo-1594737625785-c1b5d4a04e14"
+            src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b"
             alt="Wellness Program"
           />
 

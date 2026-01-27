@@ -25,7 +25,29 @@ function Home() {
         />
 
         <meta name="robots" content="index, follow" />
-      </head>
+
+        <meta property="og:title" content="YOGI WELLNESS | Natural Weight Loss Programs" />
+        <meta
+          property="og:description"
+          content="Transform your body, mind, and life with YOGI WELLNESS. Join our YOGI WELLNESS and lifestyle-based weight loss programs."
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:image"
+          content="https://images.unsplash.com/photo-1554284126-aa88f22d8b74"
+        />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="YOGI WELLNESS | Weight Loss & Wellness" />
+        <meta
+          name="twitter:description"
+          content="Healthy and sustainable weight loss through lifestyle management and mindful living."
+        />
+        <meta
+          name="twitter:image"
+          content="https://images.unsplash.com/photo-1554284126-aa88f22d8b74"
+        />
+      </head>   
 
       <div className="home-container">
         {/* HERO SECTION */}
@@ -131,7 +153,7 @@ function Home() {
 
             <div className="program-card">
               <img
-                src="https://images.unsplash.com/photo-1518611012118-f0c5b61e0a31"
+                src="https://images.unsplash.com/photo-1545205597-3d9d02c29597"
                 alt="Stress Management"
               />
               <h3>Stress Management</h3>
