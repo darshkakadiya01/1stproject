@@ -11,7 +11,7 @@ function Home() {
 
   return (
     <>
-     <head>
+      <head>
         <title>YOGI WELLNESS | Natural Weight Loss & Lifestyle Management</title>
 
         <meta
@@ -29,7 +29,7 @@ function Home() {
         <meta property="og:title" content="YOGI WELLNESS | Natural Weight Loss Programs" />
         <meta
           property="og:description"
-          content="Transform your body, mind, and life with YOGI WELLNESS. Join our yoga and lifestyle-based weight loss programs."
+          content="Transform your body, mind, and life with YOGI WELLNESS. Join our YOGI WELLNESS and lifestyle-based weight loss programs."
         />
         <meta property="og:type" content="website" />
         <meta
