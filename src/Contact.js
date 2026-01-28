@@ -51,6 +51,19 @@ const Contact = () => {
           content="Transform your body, mind, and life with YOGI WELLNESS. Join our YOGI WELLNESS and lifestyle-based weight loss programs."
         />
         <meta property="og:type" content="website" />
+        <link rel="icon" type="image/png" href="%PUBLIC_URL%/favicon-yogiwellness.png" sizes="48x48" />
+        <link rel="icon" type="image/png" href="%PUBLIC_URL%/favicon-yogiwellness.png" sizes="96x96" />
+        <link rel="icon" type="image/png" href="%PUBLIC_URL%/favicon-yogiwellness.png" sizes="192x192" />
+        <link rel="shortcut icon" type="image/png" href="%PUBLIC_URL%/favicon-yogiwellness.png" />
+        <link rel="apple-touch-icon" type="image/png" href="%PUBLIC_URL%/favicon-yogiwellness.png" />
+        <meta property="og:title" content="YOGI WELLNESS | Natural Weight Loss & Lifestyle Management" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://yogiwellness.vercel.app/" />
+        <meta
+          property="og:image"
+          content="https://yogiwellness.vercel.app/favicon-yogiwellness.png"
+        />
+        <meta property="og:url" content="https://yogiwellness.vercel.app/" />
         <meta
           property="og:image"
           content="https://images.unsplash.com/photo-1554284126-aa88f22d8b74"
