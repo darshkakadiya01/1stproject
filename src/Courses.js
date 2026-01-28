@@ -15,6 +15,46 @@ function Courses() {
   };
 
   return (
+    <>
+    <head>
+        <title>YOGI WELLNESS | Natural Weight Loss & Lifestyle Management</title>
+
+        <meta
+          name="description"
+          content="YOGI WELLNESS offers natural weight loss through lifestyle management, mindful living, nutrition guidance, and stress management. On-site wellness services and online Zoom-based weight loss guidance available."
+        />
+
+        <meta
+          name="keywords"
+          content="Yogi Wellness, Courses, Weight loss course online free, Online weight loss Classes near me, Best online weight loss course, Weight loss course india, Weight loss course near me, Online weight loss classes India, Weight loss classes for women, Weight management courses for health professionals, Yogi Wellness Courses, wellness programs Courses, wellness programs in rajkot, Yogi Wellness weight loss programs, Lifestyle management, weight loss rajkot, online weight loss zoom, on-site wellness programs, natural weight loss, healthy lifestyle"
+        />
+
+        <meta name="robots" content="index, follow" />
+
+        <meta property="og:title" content="YOGI WELLNESS | Natural Weight Loss Programs" />
+        <meta
+          property="og:description"
+          content="Transform your body, mind, and life with YOGI WELLNESS. Join our YOGI WELLNESS and lifestyle-based weight loss programs."
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:image"
+          content="https://images.unsplash.com/photo-1554284126-aa88f22d8b74"
+        />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="YOGI WELLNESS | Weight Loss & Wellness" />
+        <meta
+          name="twitter:description"
+          content="Healthy and sustainable weight loss through lifestyle management and mindful living."
+        />
+        <meta
+          name="twitter:image"
+          content="https://images.unsplash.com/photo-1554284126-aa88f22d8b74"
+        />
+      </head>
+      
+
     <div className="courses-page">
 
       <section className="courses-hero">
@@ -178,6 +218,7 @@ function Courses() {
       </section>
 
     </div>
+    </>
   );
 }
 
