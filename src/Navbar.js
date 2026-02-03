@@ -7,14 +7,9 @@ function Navbar() {
     <div className="Navbar-main-container">
       <nav className="navbar">
         <img
-          src="/yogi-wellnesss.png"
+          src="/Frame 31.png"
           alt="Logo"
           className="navbar-logo"
-        />
-        <img
-          src="/yogi-wellness.png"
-          alt="Logo"
-          className="navbar-logoo"
         />
 
         <ul className="navbar-menu">
