@@ -7,7 +7,7 @@ function Navbar() {
     <div className="Navbar-main-container">
       <nav className="navbar">
         <img
-          src="/Frame 31.png"
+          src="/mainlogoyogiwellness.png"
           alt="Logo"
           className="navbar-logo"
         />
