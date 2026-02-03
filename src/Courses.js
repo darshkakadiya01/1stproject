@@ -26,7 +26,7 @@ function Courses() {
 
         <meta
           name="keywords"
-          content="Yogi Wellness, Courses, Weight loss course online free, Online weight loss Classes near me, Best online weight loss course, Weight loss course india, Weight loss course near me, Online weight loss classes India, Weight loss classes for women, Weight management courses for health professionals, Yogi Wellness Courses, wellness programs Courses, wellness programs in rajkot, Yogi Wellness weight loss programs, Lifestyle management, weight loss rajkot, online weight loss zoom, on-site wellness programs, natural weight loss, healthy lifestyle"
+          content="Yogi Wellness, weight loss programs in rajkot, Courses, Weight loss course online free, weight loss course, weight loss website, 7-day diet plan for weight loss, weight loss diet plan, Online weight loss Classes near me, Best online weight loss course, free weight loss trial in rajkot, Weight loss course india, Weight loss course near me, Lifestyle management, FREE weight loss tips, Online weight loss classes India, Weight loss classes for women, Weight management courses for health professionals, Yogi Wellness Courses, wellness programs Courses, wellness programs in rajkot, Yogi Wellness weight loss programs, Lifestyle management, weight loss rajkot, online weight loss zoom, on-site wellness programs, natural weight loss, healthy lifestyle"
         />
 
         <meta name="robots" content="index, follow" />

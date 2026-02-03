@@ -40,7 +40,7 @@ const Contact = () => {
 
         <meta
           name="keywords"
-          content="Yogi Wellness, Online dietitian consultation free, Contact, Contact for weight loss, wellness programs, wellness programs in rajkot, Yogi Wellness weight loss programs, Lifestyle management, weight loss rajkot, online weight loss zoom, on-site wellness programs, natural weight loss, healthy lifestyle"
+          content="Yogi Wellness, weight loss programs in rajkot, Online dietitian consultation free, Contact, Contact for weight loss, wellness programs, FREE weight loss tips, weight loss website, 7-day diet plan for weight loss, weight loss diet plan, weight loss course, free weight loss trial in rajkot, wellness programs in rajkot, Yogi Wellness weight loss programs, Lifestyle management, weight loss rajkot, online weight loss zoom, on-site wellness programs, natural weight loss, healthy lifestyle"
         />
 
         <meta name="robots" content="index, follow" />

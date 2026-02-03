@@ -21,7 +21,7 @@ function Home() {
 
         <meta
           name="keywords"
-          content="Yogi Wellness, wellness programs, wellness programs in rajkot, Yogi Wellness weight loss programs, Lifestyle management, weight loss rajkot, online weight loss zoom, on-site wellness programs, natural weight loss, healthy lifestyle"
+          content="Yogi Wellness, wellness programs, FREE weight loss tips, free weight loss trial in rajkot, wellness programs in rajkot, weight loss course, Yogi Wellness weight loss programs, weight loss website, 7-day diet plan for weight loss, weight loss diet plan, Lifestyle management, weight loss rajkot, online weight loss zoom, on-site wellness programs, weight loss programs in rajkot, natural weight loss, healthy lifestyle"
         />
 
         <meta name="robots" content="index, follow" />
