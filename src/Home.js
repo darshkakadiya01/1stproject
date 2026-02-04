@@ -26,11 +26,6 @@ function Home() {
 
         <meta name="robots" content="index, follow" />
 
-        <meta property="og:title" content="YOGI WELLNESS | Natural Weight Loss Programs" />
-        <meta
-          property="og:description"
-          content="Transform your body, mind, and life with YOGI WELLNESS. Join our YOGI WELLNESS and lifestyle-based weight loss programs."
-        />
         <meta property="og:type" content="website" />
         <link rel="icon" type="image/png" href="%PUBLIC_URL%/favicon-yogiwellness.png" sizes="48x48" />
         <link rel="icon" type="image/png" href="%PUBLIC_URL%/favicon-yogiwellness.png" sizes="96x96" />
