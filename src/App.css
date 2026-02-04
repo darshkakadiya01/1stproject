@@ -709,6 +709,7 @@ html, body {
     text-align: left;
     max-width: 400px;
     margin: 20px auto;
+    list-style: disc;
   }
 }
 
@@ -940,6 +941,10 @@ html, body {
     flex-direction: column;
     gap: 15px;
   }
+
+  .course-info ul li{
+    text-align: left;
+  }
 }
 
 @media (max-width: 600px) {
@@ -949,6 +954,9 @@ html, body {
 
   .free-trial h2 {
     font-size: 26px;
+  }
+  .course-info ul li{
+    text-align: left;
   }
 }
 

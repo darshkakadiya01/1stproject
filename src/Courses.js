@@ -99,10 +99,10 @@ function Courses() {
           </p>
 
           <ul className="trial-points">
-            <li> Breathing techniques for fat burn & digestion</li>
-            <li> Simple meditation for stress & emotional eating</li>
-            <li> Basic daily diet & lifestyle tips</li>
-            <li> WhatsApp guidance for the trial day</li>
+            <li>✔ Breathing techniques for fat burn & digestion</li>
+            <li>✔ Simple meditation for stress & emotional eating</li>
+            <li>✔ Basic daily diet & lifestyle tips</li>
+            <li>✔ WhatsApp guidance for the trial day</li>
           </ul>
 
           <button
