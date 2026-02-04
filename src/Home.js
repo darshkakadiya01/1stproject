@@ -21,7 +21,7 @@ function Home() {
 
         <meta
           name="keywords"
-          content="Yogi Wellness, wellness programs, FREE weight loss tips, free weight loss trial in rajkot, wellness programs in rajkot, weight loss course, Yogi Wellness weight loss programs, weight loss website, 7-day diet plan for weight loss, weight loss diet plan, Lifestyle management, weight loss rajkot, online weight loss zoom, on-site wellness programs, weight loss programs in rajkot, natural weight loss, healthy lifestyle"
+          content="Yogi Wellness, wellness programs, weight loss, free weight loss trial, lifestyle management, natural weight loss, online zoom weight loss"
         />
 
         <meta name="robots" content="index, follow" />
@@ -29,35 +29,10 @@ function Home() {
         <meta property="og:title" content="YOGI WELLNESS | Natural Weight Loss Programs" />
         <meta
           property="og:description"
-          content="Transform your body, mind, and life with YOGI WELLNESS. Join our YOGI WELLNESS and lifestyle-based weight loss programs."
+          content="Transform your body, mind, and life with YOGI WELLNESS. Trusted natural weight loss programs."
         />
         <meta property="og:type" content="website" />
-        <link rel="icon" type="image/png" href="%PUBLIC_URL%/favicon-yogiwellness.png" sizes="48x48" />
-        <link rel="icon" type="image/png" href="%PUBLIC_URL%/favicon-yogiwellness.png" sizes="96x96" />
-        <link rel="icon" type="image/png" href="%PUBLIC_URL%/favicon-yogiwellness.png" sizes="192x192" />
-        <link rel="shortcut icon" type="image/png" href="%PUBLIC_URL%/favicon-yogiwellness.png" />
-        <link rel="apple-touch-icon" type="image/png" href="%PUBLIC_URL%/favicon-yogiwellness.png" />
-        <meta property="og:title" content="YOGI WELLNESS | Natural Weight Loss & Lifestyle Management" />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://yogiwellness.vercel.app/" />
-        <meta
-          property="og:image"
-          content="https://yogiwellness.vercel.app/favicon-yogiwellness.png"
-        />
-        <meta property="og:url" content="https://yogiwellness.vercel.app/" />
-
-
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="YOGI WELLNESS | Weight Loss & Wellness" />
-        <meta
-          name="twitter:description"
-          content="Healthy and sustainable weight loss through lifestyle management and mindful living."
-        />
-        <meta
-          name="twitter:image"
-          content="https://images.unsplash.com/photo-1554284126-aa88f22d8b74"
-        />
-      </head>   
+      </head>
 
       <div className="home-container">
         {/* HERO SECTION */}
@@ -72,7 +47,13 @@ function Home() {
               loss through lifestyle management, mindful living, and expert guidance.
             </p>
 
-            {/* 🔹 NEW IMPORTANT LINE */}
+            {/* ✅ TRUST LINE */}
+            <p className="trust-line">
+              <strong>100% Trusted by People:</strong> YOGI WELLNESS follows
+              safe, natural, and result-oriented weight loss methods with
+              honest guidance — no shortcuts, no false promises.
+            </p>
+
             <p className="service-info">
               <strong>Note:</strong> Our wellness courses and sessions are conducted
               <strong> on-site only</strong>, while weight loss guidance, follow-ups,
@@ -115,12 +96,11 @@ function Home() {
               and sustainable daily habits.
             </p>
 
-            {/* 🔹 NEW LINE */}
             <p>
               All wellness activities and practical sessions are conducted
               <strong> on-site</strong>, ensuring personalized attention,
               while weight loss education, progress tracking, and expert support
-              are delivered conveniently through
+              are delivered through
               <strong> online Zoom meetings</strong>.
             </p>
 
