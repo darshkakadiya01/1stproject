@@ -12,7 +12,7 @@ function Home() {
   return (
     <>
       <head>
-        <title>YOGI WELLNESS | Natural Weight Loss & Lifestyle Management</title>
+      <title>YOGI WELLNESS | Natural Weight Loss & Lifestyle Management</title>
 
         <meta
           name="description"
@@ -55,7 +55,6 @@ function Home() {
       </head>
 
       <div className="home-container">
-        {/* HERO SECTION */}
         <section className="hero-section">
           <div className="hero-content">
             <h1>YOGI WELLNESS</h1>
@@ -67,7 +66,6 @@ function Home() {
               loss through lifestyle management, mindful living, and expert guidance.
             </p>
 
-            {/* ✅ TRUST LINE */}
             <p className="trust-line">
               <strong>100% Trusted by People:</strong> YOGI WELLNESS follows
               safe, natural, and result-oriented weight loss methods with
@@ -98,8 +96,7 @@ function Home() {
           </div>
         </section>
 
-        {/* ABOUT SECTION */}
-        <section className="about-section">
+=        <section className="about-section">
           <div className="about-image">
             <img
               src="https://images.unsplash.com/photo-1599447421416-3414500d18a5"
@@ -131,7 +128,6 @@ function Home() {
           </div>
         </section>
 
-        {/* PROGRAMS SECTION */}
         <section className="programs-section">
           <h2>Our Weight Loss Programs</h2>
 
@@ -175,7 +171,6 @@ function Home() {
           </div>
         </section>
 
-        {/* CTA SECTION */}
         <section className="cta-section">
           <h2>Start Your Weight Loss Journey Today</h2>
           <p>
